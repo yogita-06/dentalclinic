@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+/node_modules_incomplete
+
+# Next.js output
+/.next
+/out
+
+# local and deployment configuration
+.env*
+.vercel
+
+# editor / OS
+.DS_Store
+Thumbs.db
+*.log
+
+# TypeScript cache
+*.tsbuildinfo

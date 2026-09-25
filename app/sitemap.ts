@@ -1,0 +1,1 @@
+import type { MetadataRoute } from "next";import {treatments} from "@/data/treatments";export default function sitemap():MetadataRoute.Sitemap{const base="https://example.com";return ["","/about","/treatments","/team","/appointment","/faq","/contact","/emergency",...treatments.map(t=>`/treatments/${t.slug}`)].map(url=>({url:base+url,lastModified:new Date()}))}
