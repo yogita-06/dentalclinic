@@ -4,6 +4,7 @@
 
 # Next.js output
 /.next
+/.next_stale
 /out
 
 # local and deployment configuration
